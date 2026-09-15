@@ -1,0 +1,17 @@
+
+CUSTOMER INTELLIGENCE PLATFORM
+PHASE 5 - EXPLORATORY DATA ANALYSIS
+
+Total Customers: 5000
+Churned Customers: 1345
+Overall Churn Rate: 26.90%
+
+KEY ANALYSIS COMPLETED:
+- Overall churn analysis
+- Churn by subscription plan
+- Churn by contract type
+- Churn by engagement
+- Churn by support risk
+- Revenue by city
+- Churn by age group
+

@@ -1,0 +1,6 @@
+dataset,rows,columns,missing_values,duplicate_records,primary_key_status,primary_key_nulls,primary_key_duplicates,invalid_dates,future_dates,invalid_category_values,business_rule_issues,foreign_key_invalid,foreign_key_status,quality_score,final_status
+customers,5000,11,0,0,PASS,0,0,0,0,0,0,0,N/A,100.0,PASS
+subscriptions,5000,6,0,0,PASS,0,0,0,0,0,0,0,PASS,100.0,PASS
+transactions,40629,7,0,0,PASS,0,0,0,0,0,0,0,PASS,100.0,PASS
+usage_data,86898,7,0,0,PASS,0,0,0,0,0,0,0,PASS,100.0,PASS
+support_tickets,12358,8,0,0,PASS,0,0,0,0,0,0,0,PASS,100.0,PASS

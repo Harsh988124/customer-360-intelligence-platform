@@ -1,0 +1,34 @@
+services:
+
+  postgres:
+    image: postgres:18
+    container_name: customer360-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: customer360pass
+      POSTGRES_DB: customer_intelligence
+    ports:
+      - "5434:5432"
+    volumes:
+          - postgres_data:/var/lib/postgresql
+    restart: unless-stopped
+
+  api:
+    build:
+      context: ..
+      dockerfile: docker/dockerfile
+    container_name: customer360-api
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: customer_intelligence
+      DB_USER: postgres
+      DB_PASSWORD: customer360pass
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

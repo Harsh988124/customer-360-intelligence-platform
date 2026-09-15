@@ -1,0 +1,23 @@
+Customer Retention Strategy
+
+Critical Risk Customers
+- Customers with very high churn probability should receive immediate attention.
+- High-value customers should receive priority retention treatment.
+- Customers with negative sentiment should receive proactive support.
+- Customers showing payment failures should be contacted to resolve billing issues.
+
+High Value Customers
+- High-value customers should receive personalized engagement.
+- Loyalty benefits can be considered for customers with strong engagement.
+- Retention offers should be proportional to the customer's potential revenue impact.
+
+Negative Sentiment
+- Customers with repeated negative support interactions should receive customer experience follow-up.
+- Support teams should prioritize unresolved or repeated customer complaints.
+
+Low Engagement
+- Customers with declining logins or usage should receive personalized engagement campaigns.
+- Educational content and product guidance can be used to improve product adoption.
+
+Retention Principle
+- Prioritize customers using a combination of churn risk, customer value, engagement, sentiment, and support behavior.

@@ -1,0 +1,4 @@
+plan_name,customers,churned_customers,churn_rate
+Basic,1757,487,27.72
+Premium,1611,442,27.44
+Standard,1632,416,25.49

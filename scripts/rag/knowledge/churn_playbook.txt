@@ -1,0 +1,23 @@
+Churn Risk Playbook
+
+High Churn Risk
+- Review the customer's recent activity.
+- Review support history and sentiment.
+- Review payment failures.
+- Review customer value before selecting an intervention.
+- Use personalized retention communication for appropriate customers.
+
+Critical Churn Risk
+- Prioritize immediate intervention.
+- High-value critical customers should receive high-touch retention.
+- Investigate customer experience problems.
+- Monitor the customer after intervention.
+
+Medium Churn Risk
+- Use targeted engagement.
+- Monitor changes in usage and support activity.
+- Consider personalized communication.
+
+Low Churn Risk
+- Continue normal customer engagement.
+- Monitor for changes in behavior.

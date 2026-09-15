@@ -1,0 +1,76 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Local databases / generated data
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL backups
+*.dump
+*.backup
+*.sql.gz
+
+# ML / generated artifacts
+*.pkl
+*.joblib
+*.model
+
+# ChromaDB / vector database
+scripts/rag/chroma_db/
+
+# Local Ollama files
+.ollama/
+
+# Hadoop / Spark local files
+tmp/
+temp/
+spark-warehouse/
+.metastore_db/
+
+# Docker
+docker/postgres_data/
+postgres_data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Secrets / credentials
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Generated reports
+reports/generated/
